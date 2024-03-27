@@ -7,7 +7,7 @@ import Instagram from "./SVG/Instagram";
 const HeroSection = () => {
   return (
     <div>
-      <div className="bg-dark_secondary px-20 py-10">
+      <div className="bg-dark_secondary px-20 rounded-lg">
         <div className="grid grid-cols-12 items-center">
           <div className="col-span-6">
             <p className="bg-light_green  px-3 py-1 text-dark_green rounded-full inline-flex gap-3 items-center">

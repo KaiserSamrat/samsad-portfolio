@@ -4,12 +4,12 @@ import SamIcon from "./SVG/SamIcon";
 const Journey = () => {
   return (
     <div>
-      <div className="grid grid-cols-12 mt-5 gap-5">
+      <div className="grid grid-cols-12 mt-20 gap-5">
         <div className="col-span-5 bg-[#212121] px-5 pt-3 rounded-lg h-full">
           <div className="h-[100%] grid justify-between">
            <div>
-           <p className="text-white ">Journey So Far...</p>
-            <p className="text-white">
+           <p className="text-white text-3xl mt-2">Journey So Far...</p>
+            <p className="text-white mt-3">
               Great products and experiences are built by great teams. I'll be
               more than honored to be part of yours. Let's talk.
             </p>

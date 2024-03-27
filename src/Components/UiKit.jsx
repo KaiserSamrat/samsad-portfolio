@@ -3,8 +3,8 @@ import Rent from "./SVG/Rent";
 
 const UiKit = () => {
   return (
-    <div className="mt-5">
-      <p className="text-center text-white  font-semibold text-3xl mb-3">
+    <div className="mt-20">
+      <p className="text-center text-white  font-semibold text-3xl mb-10">
         UiKit
       </p>
       <div className="grid md:grid-cols-3 gap-3 ">
@@ -59,6 +59,9 @@ const UiKit = () => {
               </div>
           </div>
         </div>
+      </div>
+      <div className="text-center mt-5">
+        <button className="text-white bg-[#212121] px-5 py-2 rounded-lg">Show more</button>
       </div>
     </div>
   );

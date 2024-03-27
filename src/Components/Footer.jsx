@@ -6,9 +6,10 @@ const Footer = () => {
     return (
         <div >
             <div className='flex px-5 py-5 justify-between bg-[#212121] mt-5'>
-            <p>© 2024 Samsad Rashid</p>
+            <p className='text-white'>© 2024 Samsad Rashid</p>
             {/* <Logo/> */}
-            <div>
+            <p className='text-white'>SR</p>
+            <div className='flex gap-3 items-center'>
             <img src="/src/assets/Insta.png" />
             <img src="/src/assets/Dribble.png" />
             <img src="/src/assets/Behance.png" />

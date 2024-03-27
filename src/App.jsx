@@ -9,17 +9,20 @@ import Work from "./Components/Work";
 import Collaboration from "./Components/Collaboration";
 import Project from "./Components/Project";
 import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
     <>
       <div className="px-10 py-10">
+        <Navbar/>
         <HeroSection />
+        <Project/>
         <UiKit />
         <Journey/>
         <Work/>
         <Collaboration/>
-        <Project/>
+     
         <Footer/>
       </div>
     </>
