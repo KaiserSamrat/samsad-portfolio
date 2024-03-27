@@ -8,6 +8,7 @@ import Journey from "./Components/Journey";
 import Work from "./Components/Work";
 import Collaboration from "./Components/Collaboration";
 import Project from "./Components/Project";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Work/>
         <Collaboration/>
         <Project/>
+        <Footer/>
       </div>
     </>
   );
