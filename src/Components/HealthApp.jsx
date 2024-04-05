@@ -12,20 +12,20 @@ const HealthApp = () => {
         <div className="grid grid-cols-12 gap-3 ">
           <div className="col-span-5">
             <img
-              src="/src/assets/h1.png"
+              src="../src/assets/h1.png"
               className="w-full h-full object-cover rounded-lg"
             />
           </div>
           <div className="grid grid-rows-12  col-span-4 gap-3">
             <div className="row-span-6">
               <img
-                src="/src/assets/h2.png"
+                src="../src/assets/h2.png"
                 className="w-full h-full object-cover rounded-lg"
               />
             </div>
             <div className="row-span-6">
               <img
-                src="/src/assets/h3.png"
+                src="../src/assets/h3.png"
                 className="w-full h-full object-cover rounded-lg"
               />
             </div>
@@ -38,12 +38,12 @@ const HealthApp = () => {
             </div>
             <div className="row-span-3">
               <div className="bg-[#292A2B] px-5 py-5 w-full h-full flex justify-center items-center rounded-lg">
-                <img src="/src/assets/TA4.png" />
+                <img src="../src/assets/TA4.png" />
               </div>
             </div>
             <div className="row-span-6">
               <img
-                src="/src/assets/h4.png"
+                src="../src/assets/h4.png"
                 className="w-full h-full object-cover rounded-lg"
               />
             </div>
