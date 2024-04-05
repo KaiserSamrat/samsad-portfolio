@@ -4,7 +4,7 @@ const HealthApp = () => {
   return (
     <div className="mt-5">
       <div className="flex items-center justify-between bg-[#292A2B] rounded-t-lg px-4  py-5">
-        <p className="text-white">HealthTech</p>
+        <p className="text-white">jkh</p>
         <p className="text-white">HealthX</p>
         <p className="text-white">2023</p>
       </div>
